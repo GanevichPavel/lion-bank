@@ -13,7 +13,7 @@
   flex: 1;
   margin-right: 26px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid transparent;
   background: #ffffff;
   padding: 20px 30px;
   font-size: 18px;
@@ -21,7 +21,7 @@
 }
 
 .form__input:focus {
-  border: 1px solid #E5C288;
+  border-color: #E5C288;
 }
 
 .form__input::placeholder {
