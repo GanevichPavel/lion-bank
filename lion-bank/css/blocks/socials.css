@@ -1,65 +1,54 @@
-.socials {
+.icon {
   margin-right: 74px;
   margin-bottom: 8px;
 }
 
-.socials__item {
+.icon__item {
   display: inline-block;
   vertical-align: middle;
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
   margin-right: 6px;
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;
 }
 
 .socials__item:last-child {
   margin-right: 0;
 }
 
-.socials__link {
+.icon__link {
+  content: '';
   display: block;
+  position: absolute;
   text-decoration: none;
   width: 36px;
   height: 36px;
-}
-
-.socials__item--icon--tg .socials__link {
-  background-color: transparent;
-  background-image: url(../../img/tg.svg);
   border-radius: 50%;
+  opacity: 0.5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.socials__item--icon--tg .socials__link:hover {
-  background-color: #D3A557;
-  box-shadow: 0px 0px 10px rgba(223, 181, 109, 0.35);
+.icon__item--icon--tg .icon__link {
+  background: url('../../img/css_sprites.png') -178px -10px;
 }
 
-.socials__item--icon--vk .socials__link {
-  background-color: transparent;
-  background-image: url(../../img/vk.svg);
-  border-radius: 50%;
+.icon__item--icon--vk .icon__link {
+  background: url('../../img/css_sprites.png') -122px -10px;
 }
 
-.socials__item--icon--vk .socials__link:hover {
-  background-color: #D3A557;
-  box-shadow: 0px 0px 10px rgba(223, 181, 109, 0.35);
+.icon__item--icon--fb .icon__link {
+  background: url('../../img/css_sprites.png') -10px -10px;
 }
 
-.socials__item--icon--fb .socials__link {
-  background-color: transparent;
-  background-image: url(../../img/fb.svg);
-  border-radius: 50%;
+.icon__item--icon--ig .icon__link {
+  background: url('../../img/css_sprites.png') -66px -10px;
 }
 
-.socials__item--icon--fb .socials__link:hover {
-  background-color: #D3A557;
-  box-shadow: 0px 0px 10px rgba(223, 181, 109, 0.35);
-}
-
-.socials__item--icon--ig .socials__link {
-  background-color: transparent;
-  background-image: url(../../img/ig.svg);
-  border-radius: 50%;
-}
-
-.socials__item--icon--ig .socials__link:hover {
-  background-color: #D3A557;
-  box-shadow: 0px 0px 10px rgba(223, 181, 109, 0.35);
+.icon__link:hover {
+  opacity: 1;
 }
