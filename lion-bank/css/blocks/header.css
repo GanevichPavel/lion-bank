@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  padding-top: 25px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header__col {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header__col--align--right {
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.header__col--align--left {
+  margin-top: 10px;
+  align-items: center;
+}

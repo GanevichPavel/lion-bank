@@ -1,0 +1,39 @@
+.services {
+  margin-bottom: 58px;
+}
+
+.service {
+  display: flex;
+  padding: 57px 30px 47px;
+  text-decoration: none;
+}
+
+.service:hover {
+  background: #F5F5F5;
+  border-radius: 3px;
+}
+
+.service:hover .service__btn {
+  background: #D3A557;
+  box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
+}
+
+.service__img {
+  width: 40%;
+  margin-right: 5%;
+}
+
+.service__content {
+  flex: 1;
+}
+
+.service__title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #202020;
+  margin-bottom: 48px;
+}
+
+.sevice__desc {
+  margin-bottom: 53px;
+}

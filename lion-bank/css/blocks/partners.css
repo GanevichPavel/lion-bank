@@ -1,0 +1,39 @@
+.partners__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 75px;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__item {
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.partners__item:nth-child(4n + 1) {
+  margin-left: 0px;
+}
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 280px;
+  height: 92px;
+  align-items: center;
+  justify-content:center;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover {
+  filter: grayscale(0%);
+}
+
+.partners__img {
+  display: block;
+  width: auto;
+  height: auto;
+}

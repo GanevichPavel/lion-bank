@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Open sans" , Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  background: #29282D;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  margin-top: 0px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  /* width: 100%; */
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.page__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 37px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 1100px;
+  min-height: 100%;
+}
+
+.wrapper__content {
+  flex: 1;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-page-wrapper {
+  background: url(../../img/lion-header\ 1.jpg) center top no-repeat, url(../../img/bottom-pic\ 1.jpg) right bottom 239px no-repeat;
+}
